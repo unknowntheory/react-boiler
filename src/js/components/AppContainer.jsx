@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import PublishContatiner from  './PublishContainer.jsx'
+import MainApp from '../pages/MainApp.jsx';
 
 
 class AppContainer extends Component {
@@ -15,7 +15,7 @@ class AppContainer extends Component {
   render() {
     return (
       <div>
-       <PublishContatiner />
+       <MainApp />
       </div>
     );
   }
